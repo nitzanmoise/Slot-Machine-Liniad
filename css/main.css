@@ -1,0 +1,32 @@
+html {
+  display: block;
+}
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.game-container {
+  background-color: rgb(255, 255, 255);
+  width: 345.87px;
+  height: 615px;
+
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#myCanvas {
+  position: absolute;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 345.87px;
+  height: 615px;
+}
+.hide {
+  display: none;
+  visibility: hidden;
+}
