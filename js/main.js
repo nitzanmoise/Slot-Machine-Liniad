@@ -15,72 +15,70 @@ var scoreSpeed = 100;
 var makeVictoryTimeOut = null;
 
 var commaInteger = null;
-var buttonSrc = "../../img/button-1.png";
-if (!isSymbolsLoop) {
-  canvas.addEventListener("click", startGame, false);
-}
+var buttonSrc = "./img/button-1.png";
+canvas.addEventListener("click", startGame, false);
 
 var gSymbols = [
   {
     name: "symbolWilka",
     id: 0,
-    src: "../../img/symbols/symbolWilka.png",
+    src: "./img/symbols/symbolWilka.png",
     symbolPosX: 100,
     symbolPosY: 450
   },
   {
     name: "symbolBabcia",
     id: 1,
-    src: "../../img/symbols/symbolBabcia.png",
+    src: "./img/symbols/symbolBabcia.png",
     symbolPosX: 100,
     symbolPosY: 450
   },
   {
     name: "symbolBabcia",
     id: 2,
-    src: "../../img/symbols/symbolBabcia.png",
+    src: "./img/symbols/symbolBabcia.png",
     symbolPosX: 100,
     symbolPosY: 450
   },
   {
     name: "symbolScatter",
     id: 3,
-    src: "../../img/symbols/symbolScatter.png",
+    src: "./img/symbols/symbolScatter.png",
     symbolPosX: 100,
     symbolPosY: 650
   },
   {
     name: "symbolSerce",
     id: 4,
-    src: "../../img/symbols/symbolSerce.png",
+    src: "./img/symbols/symbolSerce.png",
     symbolPosX: 100,
     symbolPosY: 650
   },
   {
     name: "symbolWilka",
     id: 5,
-    src: "../../img/symbols/symbolWilka.png",
+    src: "./img/symbols/symbolWilka.png",
     symbolPosX: 100,
     symbolPosY: 650
   },
   {
     name: "symbolChata",
     id: 6,
-    src: "../../img/symbols/symbolChata.png",
+    src: "./img/symbols/symbolChata.png",
     symbolPosX: 100,
     symbolPosY: 850
   },
   {
     name: "symbolWild",
     id: 7,
-    src: "../../img/symbols/symbolWild.png",
+    src: "./img/symbols/symbolWild.png",
     symbolPosX: 100,
     symbolPosY: 850
   },
   {
     name: "symbolChata",
     id: 8,
-    src: "../../img/symbols/symbolChata.png",
+    src: "./img/symbols/symbolChata.png",
     symbolPosX: 100,
     symbolPosY: 850
   }
@@ -90,63 +88,63 @@ var gVictorySymbols = [
   {
     name: "symbolWild",
     id: 0,
-    src: "../../img/symbols/symbolWild.png",
+    src: "./img/symbols/symbolWild.png",
     symbolPosX: 100,
     symbolPosY: 450
   },
   {
     name: "symbolBabcia",
     id: 1,
-    src: "../../img/symbols/symbolBabcia.png",
+    src: "./img/symbols/symbolBabcia.png",
     symbolPosX: 100,
     symbolPosY: 450
   },
   {
     name: "symbolWild",
     id: 2,
-    src: "../../img/symbols/symbolWild.png",
+    src: "./img/symbols/symbolWild.png",
     symbolPosX: 100,
     symbolPosY: 450
   },
   {
     name: "symbolScatter",
     id: 3,
-    src: "../../img/symbols/symbolScatter.png",
+    src: "./img/symbols/symbolScatter.png",
     symbolPosX: 100,
     symbolPosY: 650
   },
   {
     name: "symbolSerce",
     id: 4,
-    src: "../../img/symbols/symbolSerce.png",
+    src: "./img/symbols/symbolSerce.png",
     symbolPosX: 100,
     symbolPosY: 650
   },
   {
     name: "symbolWilka",
     id: 5,
-    src: "../../img/symbols/symbolWilka.png",
+    src: "./img/symbols/symbolWilka.png",
     symbolPosX: 100,
     symbolPosY: 650
   },
   {
     name: "symbolChata",
     id: 6,
-    src: "../../img/symbols/symbolChata.png",
+    src: "./img/symbols/symbolChata.png",
     symbolPosX: 100,
     symbolPosY: 850
   },
   {
     name: "symbolWild",
     id: 7,
-    src: "../../img/symbols/symbolWild.png",
+    src: "./img/symbols/symbolWild.png",
     symbolPosX: 100,
     symbolPosY: 850
   },
   {
     name: "symbolChata",
     id: 8,
-    src: "../../img/symbols/symbolChata.png",
+    src: "./img/symbols/symbolChata.png",
     symbolPosX: 100,
     symbolPosY: 850
   }
@@ -156,7 +154,7 @@ var gImages = [
   {
     name: "bg",
     id: 0,
-    src: "../../img/bg.png",
+    src: "./img/bg.png",
     width: 60,
     height: 40,
     posX: 0,
@@ -165,7 +163,7 @@ var gImages = [
   {
     name: "board",
     id: 1,
-    src: "../../img/board.png",
+    src: "./img/board.png",
     width: 650,
     height: 650,
     posX: 30,
@@ -174,7 +172,7 @@ var gImages = [
   {
     name: "redHood",
     id: 2,
-    src: "../../img/red-hood.png",
+    src: "./img/red-hood.png",
     width: 1900,
     height: 1150,
     posX: -360,
@@ -183,7 +181,7 @@ var gImages = [
   {
     name: "frontTrees",
     id: 3,
-    src: "../../img/front-trees.png",
+    src: "./img/front-trees.png",
     width: 1500,
     height: 1750,
     posX: -380,
@@ -202,7 +200,7 @@ var gImages = [
   {
     name: "arrow",
     id: 5,
-    src: "../../img/arr.png",
+    src: "./img/arr.png",
     width: 180,
     height: 150,
     posX: 250,
@@ -211,7 +209,7 @@ var gImages = [
   {
     name: "hand",
     id: 6,
-    src: "../../img/hand.png",
+    src: "./img/hand.png",
     width: 200,
     height: 200,
     posX: 290,
@@ -220,7 +218,7 @@ var gImages = [
   {
     name: "huuugeLogo",
     id: 7,
-    src: "../../img/huuuge-logo.png",
+    src: "./img/huuuge-logo.png",
     width: 100,
     height: 80,
     posX: 20,
@@ -229,7 +227,7 @@ var gImages = [
   {
     name: "logo",
     id: 8,
-    src: "../../img/logo.png",
+    src: "./img/logo.png",
     width: 400,
     height: 150,
     posX: 150,
@@ -409,7 +407,9 @@ function startGame(e) {
       isButtonChange = false;
       requestAnimationFrame(symbolsLoop);
       clearInterval(buttonInterval);
+      canvas.addEventListener("click", stopGame, false);
     }
+    canvas.removeEventListener("click", startGame);
   }
   makeVictoryTimeOut = setTimeout(function() {
     makeVictory();
@@ -455,6 +455,7 @@ function moveSymbols() {
 }
 
 function makeVictory() {
+  canvas.removeEventListener("click", stopGame);
   clearTimeout(makeVictoryTimeOut);
   scoreSpeed = 2000;
   gVictorySymbols.forEach((victorySymbol, idx) => {
@@ -475,27 +476,28 @@ function makeVictory() {
       newImgSymbol.height
     );
   });
+
   isSymbolsLoop = false;
 
   gStarSymbols = [
     {
       name: "stars",
       id: 0,
-      src: "../../img/stars.png",
+      src: "./img/stars.png",
       symbolPosX: 0,
       symbolPosY: 380
     },
     {
       name: "stars",
       id: 1,
-      src: "../../img/stars.png",
+      src: "./img/stars.png",
       symbolPosX: 460,
       symbolPosY: 380
     },
     {
       name: "stars",
       id: 2,
-      src: "../../img/stars.png",
+      src: "./img/stars.png",
       symbolPosX: 230,
       symbolPosY: 780
     }
@@ -520,7 +522,7 @@ function makeVictory() {
 
 function changeButton() {
   buttonInterval = setInterval(function() {
-    buttonSrc = "../../img/button-2.png";
+    buttonSrc = "./img/button-2.png";
 
     newImgs.forEach(newImg => {
       if (newImg.id === "4") {
@@ -537,7 +539,7 @@ function changeButton() {
 
     drawImageActualSize();
     setTimeout(function() {
-      buttonSrc = "../../img/button-1.png";
+      buttonSrc = "./img/button-1.png";
       newImgs.forEach(newImg => {
         if (newImg.id === "4") {
           newImg.src = buttonSrc;
@@ -572,9 +574,25 @@ function increaseScore(score) {
   scoreInterval;
 }
 
+function stopGame(e) {
+  let rect = this.getBoundingClientRect(),
+    x = e.clientX - rect.left,
+    y = e.clientY - rect.top;
+
+  if (
+    x >= 80 &&
+    x <= 50 + gImages[4].width &&
+    y >= 500 &&
+    y <= 550 + gImages[4].height
+  ) {
+    makeVictory();
+  }
+}
+
 function reStart() {
   changeButton();
   gStarSymbols = [];
   newImgsStarsSymbols = [];
   scoreSpeed = 100;
+  canvas.addEventListener("click", startGame, false);
 }
